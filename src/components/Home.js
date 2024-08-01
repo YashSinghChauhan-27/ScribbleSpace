@@ -1,9 +1,11 @@
 import Notes from "./Notes";
 
-export const Home = () => {
+export const Home = ({ showAlert }) => {
   return (
     <div>
-      <Notes />
+      <Notes showAlert={showAlert}/>
     </div>
   );
 };
+
+export default Home;
