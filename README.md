@@ -34,3 +34,18 @@ Once the application is running, you can navigate through the following routes t
 - **Login Page** (`/login`): Log in to your account.
 - **Home Page** (`/home`): View and manage your notes.
 - **About Page** (`/about`): Learn more about the application.
+
+
+## Interface Screenshots - 
+
+
+![Screenshot 2024-09-07 155402](https://github.com/user-attachments/assets/5a138914-3199-4127-917d-240bbd116069)
+
+
+![Screenshot 2024-09-07 155412](https://github.com/user-attachments/assets/8defde8e-ed17-4137-8bfd-12c4745075d8)
+
+
+![Screenshot 2024-09-07 155426](https://github.com/user-attachments/assets/53fd8a4d-e98e-4593-8a5d-cb949bcc1100)
+
+
+
