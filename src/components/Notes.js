@@ -10,7 +10,7 @@ const Notes = (props) => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    if (localStorage.getItem('token')) {
+    if (localStorage.getItem("token")) {
       getNotes();
     } else {
       navigate("/login");
@@ -57,7 +57,7 @@ const Notes = (props) => {
   };
 
   return (
-    <>
+    <div className="container my-3 max-w-8xl md:max-w-6xl pt-10">
       <AddNote showAlert={props.showAlert} />
       <button
         ref={ref}
@@ -146,7 +146,9 @@ const Notes = (props) => {
                 Close
               </button>
               <button
-                disabled={note.etitle.length < 5 || note.edescription.length < 5}
+                disabled={
+                  note.etitle.length < 5 || note.edescription.length < 5
+                }
                 onClick={handleClick}
                 type="button"
                 className="btn btn-primary"
@@ -157,24 +159,25 @@ const Notes = (props) => {
           </div>
         </div>
       </div>
-
-      <div className="row my-3">
-        <h2>Your Notes</h2>
-        <div className="container mx-2">
+      <div className="row my-5 pt-10 mx-1">
+        <h2 className="text-6xl md-text-3xl font-bold">Your Notes</h2>
+        <div className="container mx-4 mt-10">
           {notes.length === 0 && "No notes to display"}
         </div>
-        {notes.map((note) => {
-          return (
-            <Noteitem
-              key={note._id}
-              updateNote={updateNote}
-              note={note}
-              showAlert={props.showAlert}
-            />
-          );
-        })}
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-4 md:gap-6 lg:gap-6">
+          {notes.map((note) => {
+            return (
+              <Noteitem
+                key={note._id}
+                updateNote={updateNote}
+                note={note}
+                showAlert={props.showAlert}
+              />
+            );
+          })}
+        </div>
       </div>
-    </>
+    </div>
   );
 };
 

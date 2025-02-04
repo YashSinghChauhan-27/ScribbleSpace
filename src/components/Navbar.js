@@ -21,7 +21,7 @@ const Navbar = ({ isAuthenticated, handleLogout }) => {
 return (
     <Disclosure
         as="nav"
-        className="py-3 bg-gradient-to-r from-[#534AA1] to-transparent text-white"
+        className="py-3 bg-gradient-to-r from-[#2f276f] to-transparent text-white z-10"
     >
         {({ open }) => (
             <>

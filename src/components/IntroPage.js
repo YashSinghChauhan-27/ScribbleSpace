@@ -198,14 +198,16 @@ const IntroPage = () => {
           <span style={{ color: "#EBA425" }}>AC</span>
           <span style={{ color: "#0A3163" }}>E</span>
         </h1>
+
         <h2>Your Ultimate Note-Taking Companion!</h2>
         <div className="intro-caption-container">
           <div className="intro-text-container">
             <p>
               Welcome to SCRIBBLESPACE: Enjoy seamless user authentication,
-              top-notch security for your personal notes, and an awesome platform
-              designed to keep your thoughts organized and accessible anytime, anywhere.
-              Capture ideas, craft stories, and never miss a moment of inspiration with SCRIBBLESPACE.
+              top-notch security for your personal notes, and an awesome
+              platform designed to keep your thoughts organized and accessible
+              anytime, anywhere. Capture ideas, craft stories, and never miss a
+              moment of inspiration with SCRIBBLESPACE.
             </p>
           </div>
         </div>
