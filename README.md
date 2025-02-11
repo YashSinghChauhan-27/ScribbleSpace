@@ -38,7 +38,7 @@ Once the application is running, you can navigate through the following routes t
 
 ## Interface Video - 
 
-https://github.com/user-attachments/assets/f642bc8a-bde2-4951-83f8-bdacdef3dc46
+https://github.com/user-attachments/assets/1bb456da-f0c8-474d-8684-013f1427a388
 
 
 
